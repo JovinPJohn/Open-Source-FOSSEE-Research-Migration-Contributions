@@ -4,6 +4,7 @@ Contributor: Jovin P. John
 Program: FOSSEE (Free/Libre and Open Source Software for Education), IIT Bombay
 Role: Semester-Long Intern / Research Migration Contributor
 Platform: eSim — a free and open-source EDA (Electronic Design Automation) tool developed and maintained under FOSSEE, IIT Bombay
+Institute: Albertian Institute of Science and Technology
 
 ## About FOSSEE and eSim
 
@@ -27,12 +28,12 @@ Ranked 1st contributor by number of projects on the FOSSEE eSim contributor lead
 | 2 | 4-bit 2's Complement Adder/Subtractor | [View on FOSSEE](https://esim.fossee.in/research-migration-project/research-migration-run/321) | 2025 |
 | 3 | 4-Bit Carry Lookahead Adder | [View on FOSSEE](https://esim.fossee.in/research-migration-project/research-migration-run/288) | 2025 |
 | 4 | 4-bit Barrel Shifter | [View on FOSSEE](https://esim.fossee.in/research-migration-project/research-migration-run/280) | 2025 |
-| 5 | Conventional 4-bit BCD Adder | [View on FOSSEE](https://esim.fossee.in/research-migration-project/research-migration-run/253) | 2025 |
-| 6 | 4-Bit Carry Bypass Adder | [View on FOSSEE](https://esim.fossee.in/research-migration-project/research-migration-run/250) | 2025 |
-| 7 | 3x3 Array Multiplier | [View on FOSSEE](https://esim.fossee.in/research-migration-project/research-migration-run/245) | 2025 |
-| 8 | Logarithmic Amplifier using Op-Amp | [View on FOSSEE](https://esim.fossee.in/research-migration-project/research-migration-run/216) | 2025 |
-| 9 | Non-Inverting Op-Amp | [View on FOSSEE](https://esim.fossee.in/research-migration-project/research-migration-run/209) | 2025 |
-| 10 | Full Subtractor Circuit | [View on FOSSEE](https://esim.fossee.in/research-migration-project/research-migration-run/182) | 2025 |
+| 5 | Conventional 4-bit BCD adder | [View on FOSSEE](https://esim.fossee.in/research-migration-project/research-migration-run/253) | 2025 |
+| 6 | 4 Bit Carry Bypass Adder | [View on FOSSEE](https://esim.fossee.in/research-migration-project/research-migration-run/250) | 2025 |
+| 7 | 3×3 Array Multiplier | [View on FOSSEE](https://esim.fossee.in/research-migration-project/research-migration-run/245) | 2025 |
+| 8 | Design and Simulation of a Logarithmic Amplifier using Op-Amp in eSim | [View on FOSSEE](https://esim.fossee.in/research-migration-project/research-migration-run/216) | 2025 |
+| 9 | Design and Simulation of a Non-Inverting Op-Amp using eSim | [View on FOSSEE](https://esim.fossee.in/research-migration-project/research-migration-run/209) | 2025 |
+| 10 | Full Subtractor Circuit Design and Simulation | [View on FOSSEE](https://esim.fossee.in/research-migration-project/research-migration-run/182) | 2025 |
 
 Full leaderboard and complete list of all research migration projects: [FOSSEE Completed Research Migration](https://esim.fossee.in/research-migration-project/completed-research-migration)
 
