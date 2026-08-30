@@ -1,4 +1,4 @@
-# FOSSEE Research Migration / eSim Open Source Contributions
+# Open Source FOSSEE Research Migration Contributions
 
 Contributor: Jovin P. John
 Program: FOSSEE (Free/Libre and Open Source Software for Education), IIT Bombay
