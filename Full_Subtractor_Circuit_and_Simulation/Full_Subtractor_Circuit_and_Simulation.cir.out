@@ -1,0 +1,72 @@
+.title kicad schematic
+
+* u1 b net-_u1-pad2_ adc_bridge_1
+* u3 a net-_u3-pad2_ adc_bridge_1
+* u5 bin net-_u11-pad1_ adc_bridge_1
+v2 a gnd pulse(0 5 0 0.01m 0.01m 2m 4m)
+* u4 a plot_v1
+v1 b gnd pulse(0 5 0 0.01m 0.01m 1m 2m)
+* u2 b plot_v1
+v3 bin gnd pulse(0 5 0 0.01m 0.01m 0.5m 1m)
+* u6 bin plot_v1
+* u17 net-_u14-pad3_ bout dac_bridge_1
+* u12 d plot_v1
+* u15 bout plot_v1
+* u10 net-_u10-pad1_ net-_u1-pad2_ net-_u10-pad3_ d_and
+* u9 net-_u11-pad2_ net-_u13-pad1_ d_inverter
+* u11 net-_u11-pad1_ net-_u11-pad2_ net-_u11-pad3_ d_xor
+* u13 net-_u13-pad1_ net-_u11-pad1_ net-_u13-pad3_ d_and
+* u16 net-_u11-pad3_ d dac_bridge_1
+* u14 net-_u13-pad3_ net-_u10-pad3_ net-_u14-pad3_ d_or
+* u8 net-_u3-pad2_ net-_u10-pad1_ d_inverter
+* u7 net-_u3-pad2_ net-_u1-pad2_ net-_u11-pad2_ d_xor
+a1 [b ] [net-_u1-pad2_ ] u1
+a2 [a ] [net-_u3-pad2_ ] u3
+a3 [bin ] [net-_u11-pad1_ ] u5
+a4 [net-_u14-pad3_ ] [bout ] u17
+a5 [net-_u10-pad1_ net-_u1-pad2_ ] net-_u10-pad3_ u10
+a6 net-_u11-pad2_ net-_u13-pad1_ u9
+a7 [net-_u11-pad1_ net-_u11-pad2_ ] net-_u11-pad3_ u11
+a8 [net-_u13-pad1_ net-_u11-pad1_ ] net-_u13-pad3_ u13
+a9 [net-_u11-pad3_ ] [d ] u16
+a10 [net-_u13-pad3_ net-_u10-pad3_ ] net-_u14-pad3_ u14
+a11 net-_u3-pad2_ net-_u10-pad1_ u8
+a12 [net-_u3-pad2_ net-_u1-pad2_ ] net-_u11-pad2_ u7
+* Schematic Name:                             adc_bridge_1, Ngspice Name: adc_bridge
+.model u1 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             adc_bridge_1, Ngspice Name: adc_bridge
+.model u3 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             adc_bridge_1, Ngspice Name: adc_bridge
+.model u5 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             dac_bridge_1, Ngspice Name: dac_bridge
+.model u17 dac_bridge(out_low=0.0 out_high=5.0 out_undef=0.5 input_load=1.0e-12 t_rise=1.0e-9 t_fall=1.0e-9 ) 
+* Schematic Name:                             d_and, Ngspice Name: d_and
+.model u10 d_and(rise_delay=1.0e-9 fall_delay=1.0e-9 input_load=1.0e-12 ) 
+* Schematic Name:                             d_inverter, Ngspice Name: d_inverter
+.model u9 d_inverter(rise_delay=1.0e-9 fall_delay=1.0e-9 input_load=1.0e-12 ) 
+* Schematic Name:                             d_xor, Ngspice Name: d_xor
+.model u11 d_xor(rise_delay=1.0e-9 fall_delay=1.0e-9 input_load=1.0e-12 ) 
+* Schematic Name:                             d_and, Ngspice Name: d_and
+.model u13 d_and(rise_delay=1.0e-9 fall_delay=1.0e-9 input_load=1.0e-12 ) 
+* Schematic Name:                             dac_bridge_1, Ngspice Name: dac_bridge
+.model u16 dac_bridge(out_low=0.0 out_high=5.0 out_undef=0.5 input_load=1.0e-12 t_rise=1.0e-9 t_fall=1.0e-9 ) 
+* Schematic Name:                             d_or, Ngspice Name: d_or
+.model u14 d_or(rise_delay=1.0e-9 fall_delay=1.0e-9 input_load=1.0e-12 ) 
+* Schematic Name:                             d_inverter, Ngspice Name: d_inverter
+.model u8 d_inverter(rise_delay=1.0e-9 fall_delay=1.0e-9 input_load=1.0e-12 ) 
+* Schematic Name:                             d_xor, Ngspice Name: d_xor
+.model u7 d_xor(rise_delay=1.0e-9 fall_delay=1.0e-9 input_load=1.0e-12 ) 
+.tran 100e-09 4e-03 0e-03
+
+* Control Statements 
+.control
+run
+print allv > plot_data_v.txt
+print alli > plot_data_i.txt
+plot v(a)
+plot v(b)
+plot v(bin)
+plot v(d)
+plot v(bout)
+.endc
+.end
