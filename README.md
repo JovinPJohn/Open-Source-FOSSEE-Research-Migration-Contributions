@@ -1,2 +1,2 @@
 # Research-Migration-Projects-for-FOSSEE-IITB
-Migrating research circuits from published papers and datasheets into the open-source eSim ecosystem, verified through NgSpice simulation — part of ongoing work as a Research Migration Contributor at FOSSEE, IIT Bombay.
+This repository documents my works as a Research Migration Contributor at FOSSEE, IIT Bombay. The project involves migrating circuits from published research papers and manufacturer datasheets into the open-source eSim ecosystem, making them freely available for simulation and reuse. Each migrated circuit is verified for functional accuracy through NgSpice simulation, cross-checked against the original source reference before being contributed to the eSim public library.
