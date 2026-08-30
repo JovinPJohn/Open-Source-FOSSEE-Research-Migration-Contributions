@@ -9,7 +9,7 @@ Platform: eSim — a free and open-source EDA (Electronic Design Automation) too
 
 FOSSEE is an initiative by IIT Bombay, funded by the Ministry of Education, Government of India, that promotes the use and development of Free and Open Source Software (FOSS) in education. eSim is one of FOSSEE's flagship open-source tools — a fully free, open-source EDA platform for circuit design, simulation, and analysis, built as an alternative to costly proprietary tools. Every project below is officially listed on FOSSEE's public Completed Research Migration page and contributes back to eSim's open, freely available component library.
 
-Ranked #1 contributor by number of projects on the FOSSEE eSim contributor leaderboard, with 10 completed and officially verified projects — the highest of any contributor in the cohort.
+Ranked 1st contributor by number of projects on the FOSSEE eSim contributor leaderboard, with 10 completed and officially verified projects — the highest of any contributor in the cohort.
 
 | Rank | Contributor | Projects |
 |------|-------------|----------|
