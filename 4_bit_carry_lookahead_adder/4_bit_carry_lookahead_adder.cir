@@ -1,0 +1,77 @@
+.title KiCad schematic
+U15 A0 plot_v1
+U16 A0 Net-_U16-Pad2_ adc_bridge_1
+v8 A0 GND pulse
+v6 A2 GND pulse
+v5 A3 GND pulse
+U11 A2 plot_v1
+U14 A1 Net-_U14-Pad2_ adc_bridge_1
+U12 A2 Net-_U12-Pad2_ adc_bridge_1
+U13 A1 plot_v1
+v7 A1 GND pulse
+U9 A3 plot_v1
+U8 B0 Net-_U17-Pad2_ adc_bridge_1
+U10 A3 Net-_U10-Pad2_ adc_bridge_1
+U18 Net-_U14-Pad2_ Net-_U18-Pad2_ Net-_U18-Pad3_ d_xor
+U21 Net-_U16-Pad2_ Net-_U17-Pad2_ Net-_U21-Pad3_ d_and
+U20 Net-_U10-Pad2_ Net-_U2-Pad2_ Net-_U20-Pad3_ d_xor
+U22 Net-_U14-Pad2_ Net-_U18-Pad2_ Net-_U22-Pad3_ d_and
+U19 Net-_U12-Pad2_ Net-_U19-Pad2_ Net-_U19-Pad3_ d_xor
+U23 Net-_U12-Pad2_ Net-_U19-Pad2_ Net-_U23-Pad3_ d_and
+v9 Cin GND pulse
+U25 Cin Net-_U25-Pad2_ adc_bridge_1
+U17 Net-_U16-Pad2_ Net-_U17-Pad2_ Net-_U17-Pad3_ d_xor
+U26 Cin plot_v1
+U7 B0 plot_v1
+v4 B0 GND pulse
+v3 B1 GND pulse
+U4 B2 Net-_U19-Pad2_ adc_bridge_1
+U6 B1 Net-_U18-Pad2_ adc_bridge_1
+U5 B1 plot_v1
+U3 B2 plot_v1
+U2 B3 Net-_U2-Pad2_ adc_bridge_1
+U1 B3 plot_v1
+v2 B2 GND pulse
+v1 B3 GND pulse
+U62 Net-_U51-Pad3_ Cout dac_bridge_1
+U56 Cout plot_v1
+U24 Net-_U10-Pad2_ Net-_U2-Pad2_ Net-_U24-Pad3_ d_and
+U34 Net-_U22-Pad3_ Net-_U32-Pad3_ Net-_U34-Pad3_ d_or
+U32 Net-_U32-Pad1_ Net-_U29-Pad3_ Net-_U32-Pad3_ d_or
+U40 Net-_U40-Pad1_ Net-_U23-Pad3_ Net-_U40-Pad3_ d_or
+U42 Net-_U42-Pad1_ Net-_U37-Pad3_ Net-_U40-Pad1_ d_or
+U37 Net-_U37-Pad1_ Net-_U35-Pad3_ Net-_U37-Pad3_ d_or
+U44 Net-_U20-Pad3_ Net-_U23-Pad3_ Net-_U44-Pad3_ d_and
+U45 Net-_U19-Pad3_ Net-_U20-Pad3_ Net-_U45-Pad3_ d_and
+U49 Net-_U18-Pad3_ Net-_U45-Pad3_ Net-_U49-Pad3_ d_and
+U47 Net-_U22-Pad3_ Net-_U45-Pad3_ Net-_U46-Pad1_ d_and
+U55 Net-_U25-Pad2_ Net-_U53-Pad3_ Net-_U54-Pad1_ d_and
+U54 Net-_U54-Pad1_ Net-_U50-Pad3_ Net-_U52-Pad1_ d_or
+U51 Net-_U51-Pad1_ Net-_U24-Pad3_ Net-_U51-Pad3_ d_or
+U52 Net-_U52-Pad1_ Net-_U46-Pad3_ Net-_U51-Pad1_ d_or
+U50 Net-_U21-Pad3_ Net-_U49-Pad3_ Net-_U50-Pad3_ d_and
+U53 Net-_U17-Pad3_ Net-_U49-Pad3_ Net-_U53-Pad3_ d_and
+U43 Net-_U25-Pad2_ Net-_U41-Pad3_ Net-_U42-Pad1_ d_and
+U46 Net-_U46-Pad1_ Net-_U44-Pad3_ Net-_U46-Pad3_ d_or
+U27 Net-_U25-Pad2_ Net-_U17-Pad3_ Net-_U27-Pad3_ d_and
+U29 Net-_U21-Pad3_ Net-_U18-Pad3_ Net-_U29-Pad3_ d_and
+U31 Net-_U17-Pad3_ Net-_U18-Pad3_ Net-_U31-Pad3_ d_and
+U28 Net-_U21-Pad3_ Net-_U27-Pad3_ Net-_U28-Pad3_ d_or
+U33 Net-_U25-Pad2_ Net-_U31-Pad3_ Net-_U32-Pad1_ d_and
+U35 Net-_U22-Pad3_ Net-_U19-Pad3_ Net-_U35-Pad3_ d_and
+U41 Net-_U17-Pad3_ Net-_U36-Pad3_ Net-_U41-Pad3_ d_and
+U38 Net-_U21-Pad3_ Net-_U36-Pad3_ Net-_U37-Pad1_ d_and
+U36 Net-_U18-Pad3_ Net-_U19-Pad3_ Net-_U36-Pad3_ d_and
+X1 Net-_U16-Pad2_ Net-_U17-Pad2_ Net-_U25-Pad2_ Net-_X1-Pad4_ unconnected-_X1-Pad5_ full_adder
+X2 Net-_U18-Pad2_ Net-_U14-Pad2_ Net-_U28-Pad3_ Net-_X2-Pad4_ unconnected-_X2-Pad5_ full_adder
+X4 Net-_U10-Pad2_ Net-_U2-Pad2_ Net-_U40-Pad3_ Net-_X4-Pad4_ unconnected-_X4-Pad5_ full_adder
+U61 Net-_X4-Pad4_ S3 dac_bridge_1
+U57 S3 plot_v1
+U48 S2 plot_v1
+U60 Net-_X3-Pad4_ S2 dac_bridge_1
+X3 Net-_U12-Pad2_ Net-_U19-Pad2_ Net-_U34-Pad3_ Net-_X3-Pad4_ unconnected-_X3-Pad5_ full_adder
+U58 Net-_X1-Pad4_ S0 dac_bridge_1
+U30 S0 plot_v1
+U39 S1 plot_v1
+U59 Net-_X2-Pad4_ S1 dac_bridge_1
+.end

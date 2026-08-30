@@ -1,0 +1,48 @@
+.title KiCad schematic
+v4 B0 GND pulse
+v7 A1 GND pulse
+v1 B3 GND pulse
+v6 A2 GND pulse
+U27 A2 plot_v1
+v3 B1 GND pulse
+U20 B0 plot_v1
+U17 B1 plot_v1
+U13 B2 plot_v1
+v2 B2 GND pulse
+U11 B3 plot_v1
+v5 A3 GND pulse
+U25 A3 plot_v1
+U10 B3 Net-_U1-Pad1_ adc_bridge_1
+U12 B2 Net-_U12-Pad2_ adc_bridge_1
+U14 B1 Net-_U14-Pad2_ adc_bridge_1
+X4 Net-_U21-Pad3_ Net-_U31-Pad2_ Net-_U1-Pad2_ Net-_X4-Pad4_ Net-_X3-Pad3_ full_adder
+U21 Net-_U19-Pad2_ Net-_U1-Pad2_ Net-_U21-Pad3_ d_xor
+U15 Net-_U14-Pad2_ Net-_U1-Pad2_ Net-_U15-Pad3_ d_xor
+X3 Net-_U15-Pad3_ Net-_U28-Pad2_ Net-_X3-Pad3_ Net-_X3-Pad4_ Net-_X2-Pad3_ full_adder
+U7 Net-_U12-Pad2_ Net-_U1-Pad2_ Net-_U7-Pad3_ d_xor
+U22 Net-_X4-Pad4_ S0 dac_bridge_1
+U23 S0 plot_v1
+U18 S1 plot_v1
+U16 Net-_X3-Pad4_ S1 dac_bridge_1
+U9 S2 plot_v1
+U8 Net-_U8-Pad1_ S2 dac_bridge_1
+X2 Net-_U7-Pad3_ Net-_U26-Pad2_ Net-_X2-Pad3_ Net-_U8-Pad1_ Net-_U2-Pad1_ full_adder
+U1 Net-_U1-Pad1_ Net-_U1-Pad2_ Net-_U1-Pad3_ d_xor
+U6 Overflow plot_v1
+U2 Net-_U2-Pad1_ Net-_U2-Pad2_ Net-_U2-Pad3_ d_xor
+U5 S3 plot_v1
+U3 Net-_U3-Pad1_ S3 dac_bridge_1
+X1 Net-_U1-Pad3_ Net-_U24-Pad2_ Net-_U2-Pad1_ Net-_U3-Pad1_ Net-_U2-Pad2_ full_adder
+U4 Net-_U2-Pad3_ Overflow dac_bridge_1
+U19 B0 Net-_U19-Pad2_ adc_bridge_1
+U30 A/S Net-_U1-Pad2_ adc_bridge_1
+U31 A0 Net-_U31-Pad2_ adc_bridge_1
+U28 A1 Net-_U28-Pad2_ adc_bridge_1
+U24 A3 Net-_U24-Pad2_ adc_bridge_1
+U26 A2 Net-_U26-Pad2_ adc_bridge_1
+v8 A0 GND pulse
+U29 A1 plot_v1
+U32 A0 plot_v1
+U33 A/S plot_v1
+v9 A/S GND pulse
+.end
